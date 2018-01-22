@@ -5,4 +5,4 @@ cd output
 del /F /Q *
 cd ..
 echo [DONE]
-java -Xmx2G -jar imageFacilitator.jar noinput
+java -Xms512m -Xmx1G -jar imageFacilitator.jar noinput
